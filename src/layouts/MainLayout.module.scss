@@ -1,0 +1,23 @@
+.app {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #464646;
+    height: 100px;
+
+    & a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    & a.active {
+        color: red !important;
+    }
+}
