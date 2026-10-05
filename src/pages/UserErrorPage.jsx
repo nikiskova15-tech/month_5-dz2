@@ -6,7 +6,7 @@ const UserErrorPage = () => {
     return (
         <div>
             <h1 style={{color: 'red'}}>Пользователь не найден</h1>
-            <p>{error.status}</p>
+            <h3>Error {error.status}</h3>
         </div>
     );
 };

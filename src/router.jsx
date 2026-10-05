@@ -7,7 +7,7 @@ import HomePage from "./pages/HomePage.jsx";
 import ProductsPage from "./pages/ProductsPage/ProductsPage.jsx";
 import ProductPage from "./pages/ProductPage.jsx";
 import UsersPage from "./pages/UsersPage/UsersPage.jsx";
-import UserPage from "./pages/UserPage/UserPage.jsx";
+import UserPage from "./pages/UserPage.jsx";
 import UserErrorPage from "./pages/UserErrorPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import NotFoundPage from "./pages/NotFoundPage.jsx";

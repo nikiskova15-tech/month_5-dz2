@@ -1,6 +1,6 @@
-import { Input } from 'antd';
-import React from 'react';
-import { useLoaderData, useSearchParams } from 'react-router-dom';
+import { Card, Input } from 'antd';
+import { Link, useLoaderData, useSearchParams } from 'react-router-dom';
+import cls from './UsersPage.module.scss'
 
 const UsersPage = () => {
 

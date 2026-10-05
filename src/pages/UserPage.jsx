@@ -1,6 +1,5 @@
 import { Button } from 'antd';
-import React from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const UserPage = () => {
 

@@ -7,7 +7,7 @@ const MainLayout = () => {
     <div className={cls.app}>
         <header className={`${cls.header} ${cls.app}`}>
             <NavLink to='/'>Главная</NavLink>
-            <NavLink to='/products'>Каталог</NavLink>
+            <NavLink to='/users'>Каталог</NavLink>
             <NavLink to='/about'>О нас</NavLink>
         </header>
 
