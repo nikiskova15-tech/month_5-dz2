@@ -8,6 +8,7 @@ const UserPage = () => {
 
     const user = useLoaderData()
 
+    
     return (
         <div>
             <div style={{
