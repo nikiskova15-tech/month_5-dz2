@@ -1,9 +1,10 @@
 import axios from "axios"
 
-export const BASE_API = "https://dummyjson.com"
+const BASE_API = "https://dummyjson.com"
+export const API = 'https://jsonplaceholder.typicode.com/users'
 
 export const api = axios.create ({
-    baseURL: BASE_API, 
+    baseURL: API, 
     headers: {
         "Content-Type": "application/json"
     },
